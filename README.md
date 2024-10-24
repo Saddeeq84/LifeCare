@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on a digital health project
 - 📫 How to reach me musaddiqun@gmail.com
 - 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: Nurse coder
+- ⚡ Fun fact: Public Health professional code novice
 
 <!---
 Saddeeq84/Saddeeq84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
