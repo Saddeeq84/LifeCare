@@ -10,6 +10,10 @@ h2 {color: red;}
 #title {background-color: green;}
 #intro {background-color: bisque;}
 .overview {background-color: antiquewhite;}
+
+.image_container {display: grid;     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;}
+
     </Style>
     <body>
 <h1 id="title">Visit Mambilla</h1>
@@ -53,20 +57,20 @@ h2 {color: red;}
 
 </p>
 <p><h2>Gallery</h2>
-<img src="beans.jpg" alt="red beans from mambilla">
-<img src="cattle .jpg" alt="cattle grazing in the mambilla">
-<img src="kakara.jpg" alt="kakara dam">
-<img src="gembu.jpeg" alt="gembu view">
-<img src="nguroje.jpg" alt="view of nguroje town">
+    <div class="image_container">
+       
+<img src="beans.jpg" alt="red beans from mambilla" class="1">
+<img src="cattle .jpg" alt="cattle from mambilla" class="2">
+<img src="gembu.jpeg" alt="gembu view" class="4">
+<img src="nguroje.jpg" alt="view of nguroje town" class="5">
 
+</div>
 </p>
 
 <p><h2>Contact</h2>
 
 </p>
     </body>
-
-
 
 
 
