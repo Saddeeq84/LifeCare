@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>my blog</title>
+<Style>
+body{background-color: aliceblue;}
+nav ul{background-color: aqua;
+color: black;
+display: flex;
+justify-content: left;
+list-style-type: none;
+margin: 0;
+padding: 10px 0;}
+nav ul li{margin: 15px;}
+.sidebar {background-color: bisque;
+display: flexbox;}
+footer {background-color: aqua;
+margin-bottom: 0;
+padding: 25px;
+}
+#main {color: brown;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+justify-content: center;}
+.activities{font-weight: bold;
+flex: 1;
+padding: 20px;
+margin: 10px;}
+.contents{display: flex;}
+</Style>
+</head>
+<body>
+<h1>Rural Health Mission Nigeria</h1>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Impact</li>
+        <li>Get Involved</li>
+        <li>Contact Us</li>
+    </ul>
+</nav>
+<p>
+    Rural Health Mission Nigeria is a non(RHMN) is a non-governmental <br>
+    organization (NGO) that provides access to healthcare services in rural <br>
+    and underserved communities in Nigeria. The organization's mission is to eliminate <br>
+    barriers to healthcare access and improve maternal and child health outcomes.
+</p>
+<p>
+    <div class="container">
+    <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#impact">Our Impact</a></li>
+            <li><a href="#involved">Get Involved</a></li>
+            <li><a href="contact">Contact Us</a></li>
+        </ul>
+        <h3>Recent Posts</h3>
+        <ul>
+            <li><a href="#post1">Post 1</a></li>
+            <li><a href="#post2">Post 2</a></li>
+            <li><a href="#post3">Post 3</a></li>
+        </ul>
+    </aside> 
+    </div>
+</p>
+<p>
+    <h1 id="main">Our Activities</h1>
+    <main>
+        <div class="contents">
+            <div class="activities">Maternal and Child Health</div>
+            <div class="activities">Health System Strentghening</div>
+            <div class="activities">Health Outreach</div>
+            <div class="activities">Public Health Advocacy</div>
+        </div>
+        
+    </main>
+</p>
+<p>
+    <footer>
+        All rights reserved @2024
+    </footer>
+</p>
+</body>
+</html>
