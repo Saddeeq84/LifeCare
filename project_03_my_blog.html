@@ -21,16 +21,37 @@ font-weight: bold;
 justify-content: center;}
 .activities{font-weight: bold;
 flex: 1;
-padding: 20px;
+padding: 5px;
 margin: 10px;}
+#intro{text-align: justify;
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
 .contents{display: flex;}
         .sidebar {
             width: 200px;
             background-color: #f4f4f4;
             padding: 20px;
+            float: right;
+        }
+        .container ul li{list-style-type: none;
         }
 footer {background-color: aqua;
-padding: 25px;}
+padding: 25px;
+clear: both;}
+
+#annual{
+    top: 10px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.latest{
+    list-style-type: none;
+    margin-bottom: 150px;
+}
 </Style>
 </head>
 <body>
@@ -44,16 +65,17 @@ padding: 25px;}
         <li>Contact Us</li>
     </ul>
 </nav>
-<p>
-    Rural Health Mission Nigeria is a non(RHMN) is a non-governmental <br>
-    organization (NGO) that provides access to healthcare services in rural <br>
-    and underserved communities in Nigeria. The organization's mission is to eliminate <br>
-    barriers to healthcare access and improve maternal and child health outcomes.
+<p id="intro">
+    Rural Health Mission Nigeria is a non(RHMN) is a non-governmental 
+    organization (NGO) that provides access to healthcare services in rural 
+    and underserved communities in Nigeria. The organization's mission is to eliminate
+    barriers to healthcare access and improve maternal and child health outcomes. <br>
+    <a href="">Read more</a>
 </p>
 <p>
     <div class="container">
     <aside class="sidebar">
-        <h2>Sidebar</h2>
+        <h2>Quick Links</h2>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
@@ -72,14 +94,53 @@ padding: 25px;}
 </p>
 <p>
     <h1 id="main">Our Activities</h1>
-    <main>
+    <main class="maine">
         <div class="contents">
-            <div class="activities">Maternal and Child Health</div>
-            <div class="activities">Health System Strentghening</div>
-            <div class="activities">Health Outreach</div>
-            <div class="activities">Public Health Advocacy</div>
+            <div class="activities">Maternal and Child Health
+                <p>
+                    <img src="maternal.jpeg" alt="maternal health image" class="img">
+                </p>
+                <p>We focus on supporting maternal and child health<br>
+                In hard-to-reach communities</p>
+            </div>
+            <div class="activities">Health System Strentghening
+                <p>
+                    <img src="system.jpeg" alt="health system Strentghening clipart" class="img">
+                </p>
+                <p>We focus on supporting maternal and child health<br>
+                In hard-to-reach communities</p>
+            </div>
+            <div class="activities">Health Outreach
+                <p>
+                    <img src="outreach.jpeg" alt="health outreach clipart" class="img">
+                </p>
+                <p>We focus on supporting maternal and child health<br>
+                In hard-to-reach communities</p>
+            </div>
+            <div class="activities">Public Health Advocacy
+                <p>
+                    <img src="advocacy.jpg" alt="public health advocacy clipart" class="img">
+                </p>
+                <p>We focus on supporting maternal and child health<br>
+                In hard-to-reach communities</p>
+            </div>
         </div>
-        
+        <div>
+            <h1>Latest News</h1>
+            <ul>
+                
+                <li class="latest"><img src="annualreport.webp" id="annual">
+                    <Strong><a href="">Our 2024 Activities Report:</a></Strong><br>
+                    We are happy to share our 2022 activities report indicating our most outsanding impact with the year under review<br>
+                    <a href="">Read more</a>
+                </li><p>
+                <li class="latest"><img src="conference.webp" id="annual">
+                    <strong><a href="">Highlight of our 2024 conference:</a></strong><br>
+                    The 2024 stakeholders engagement conference attracted participants from across different organizations<br>
+                    <a href="">Read more</a></p>
+                </li>
+            </ul>
+        </div>
     </main>
 </p>
 <p>
